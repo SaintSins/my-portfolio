@@ -12,21 +12,21 @@ const last_posts = posts.slice(0, 3);
 <BaseLayout sideBarActiveItemID="home">
   <div class="pb-12 mt-5">
     <div class="text-xl py-1">Hey there 👋</div>
-    <div class="text-5xl font-bold">I'm Manuel Ernesto</div>
-    <div class="text-3xl py-3 font-bold">Software Engineer and Entrepreneur</div>
+    <div class="text-5xl font-bold">I'm Sayyed Mohsin Ali</div>
+    <div class="text-3xl py-3 font-bold">Software Developer</div>
     <div class="py-2">
       <text class="text-lg">
-        This is <b>Astrofy</b> a free and open-source template for your Personal Portfolio Website built with Astro and TailwindCSS.
-        Create in minutes a website with Blog, CV, Project Section, Store and RSS Feed. I hope you find
-        it useful!
+        I'm currently learning <b>Backend Developement</b>.
       </text>
     </div>
+    <!--
     <div class="mt-8">
       <a class="btn" href="https://twitter.com/manuelernestog" target="_blank"> Let's connect!</a>
       <a href="https://github.com/manuelernestog/astrofy" target="_blank" class="btn btn-outline ml-5">
         Get This template
       </a>
     </div>
+     -->
   </div>
 
   <div>
@@ -34,29 +34,21 @@ const last_posts = posts.slice(0, 3);
   </div>
 
   <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="Static Site Generator"
+    img="/Static-Site-Generator.png"
+    desc="A custom, recursive Static Site Generator built in Python. This engine reads a directory tree of Markdown files, translates them into HTML, injects them into a base template, and outputs a complete, deploy-ready website."
+    url="https://github.com/SaintSins/Static-Site-Generator"
     badge="NEW"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="FOSS"
+    title="AI Coding Agent"
+    img="/Coding-Agent.png"
+    desc="A self-correcting, tool-enabled AI Agent framework built using Gemini that is designed to navigate files, write Python code, and debug in real-time."
+    url="https://github.com/SaintSins/Agentic-Ai-Bootdev-Practice"
   />
 
-  <div>
+  <!-- <div> 
     <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from blog</div>
   </div>
 
@@ -74,5 +66,5 @@ const last_posts = posts.slice(0, 3);
         <div class="divider my-0" />
       </>
     ))
-  }
+} -->
 </BaseLayout>
